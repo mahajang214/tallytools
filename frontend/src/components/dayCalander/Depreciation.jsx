@@ -5,7 +5,7 @@ function Depreciation() {
   const [endDate, setEndDate] = useState("");
   const [days, setDays] = useState(null);
   const [depreciation, setDepreciation] = useState(null);
-  const [product, setProduct] = useState("");
+  const [product, setProduct] = useState("depreciation_Item");
   const [productPrice, setProductPrice] = useState("");
   const [depreciationPercentage, setDepreciationPercentage] = useState("");
   const [currentPriceOfProduct, setCurrentPriceOfProduct] = useState(null);
